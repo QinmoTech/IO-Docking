@@ -14,9 +14,9 @@
 <p align="center"><sub>IO Dock 实物 · RP2040 主控 · USB-C 连接</sub></p>
 
 <p align="center">
-  <a href="https://creavisiontech.github.io/IO-Docking/"><strong>在线控制台</strong></a>
+  <a href="https://qinmotech.github.io/IO-Docking/"><strong>在线控制台</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://creavisiontech.github.io/IO-Docking/timing.html">FAST-LIVO任务页</a>
+  <a href="https://qinmotech.github.io/IO-Docking/timing.html">FAST-LIVO任务页</a>
   &nbsp; · &nbsp;
   <a href="firmware/io_dock-9-7.uf2">下载固件 io_dock-9-7.uf2 </a>
   &nbsp; · &nbsp;
@@ -60,7 +60,7 @@ IO Dock 是一款**即插即用的电脑外设扩展坞**。它通过一根 USB 
 面向 Fast-LIVO(Fast-LIO)、激光雷达/相机等需要多传感器时间同步的场景，板卡可自主输出
 **1 Hz 秒脉冲(PPS) + 多路 10 Hz 触发 + 每秒 GPRMC UTC 报文**，支持 UTC 校时与开机自动运行。
 
-👉 **[打开 Fast-LIVO 操作指南](Doc/fast_livo_guide.md)** · 配套页面 [web/timing.html](https://creavisiontech.github.io/IO-Docking/timing.html)
+👉 **[打开 Fast-LIVO 操作指南](Doc/fast_livo_guide.md)** · 配套页面 [web/timing.html](https://qinmotech.github.io/IO-Docking/timing.html)
 
 ## 快速上手
 
@@ -72,9 +72,9 @@ IO Dock 是一款**即插即用的电脑外设扩展坞**。它通过一根 USB 
 
 **方式 A · Web 控制台(推荐,零安装)**
 
-用 Chrome 或 Edge 打开 **[在线 Web 控制台](https://creavisiontech.github.io/IO-Docking/)**(GitHub Pages 静态页,HTTPS 下 Web Serial 直接可用),点击「连接」选择对应串口,即可图形化操作全部功能。
+用 Chrome 或 Edge 打开 **[在线 Web 控制台](https://qinmotech.github.io/IO-Docking/)**(GitHub Pages 静态页,HTTPS 下 Web Serial 直接可用),点击「连接」选择对应串口,即可图形化操作全部功能。
 
-> 也可直接打开 [web/index.html](https://creavisiontech.github.io/IO-Docking/timing.html);若以 `file://` 方式打开时无法使用串口,可在该目录运行 `python -m http.server` 后访问 `http://localhost:8000`。
+> 也可直接打开 [web/index.html](https://qinmotech.github.io/IO-Docking/timing.html);若以 `file://` 方式打开时无法使用串口,可在该目录运行 `python -m http.server` 后访问 `http://localhost:8000`。
 
 **方式 B · 任意串口终端**
 
@@ -112,7 +112,7 @@ OK SEQ RUN
 
 | 路径 | 说明 |
 | --- | --- |
-| [web/index.html](web/index.html) | Web 控制台(单文件、零依赖,Web Serial + 文本协议)。已部署到 GitHub Pages:[https://creavisiontech.github.io/IO-Docking/](https://creavisiontech.github.io/IO-Docking/) |
+| [web/index.html](web/index.html) | Web 控制台(单文件、零依赖,Web Serial + 文本协议)。已部署到 GitHub Pages:[https://qinmotech.github.io/IO-Docking/](https://qinmotech.github.io/IO-Docking/) |
 | [web/timing.html](web/timing.html) | 同步任务页:Fast-LIVO 预设,板端 1Hz PPS + 多路触发 + GPRMC,UTC 校时与开机运行 |
 | [Doc/fast_livo_guide.md](Doc/fast_livo_guide.md) | Fast-LIVO / 雷达·相机时间同步操作指南(接线、步骤、FAQ) |
 | [.github/workflows/pages.yml](.github/workflows/pages.yml) | GitHub Actions:把 `web/` 自动部署到 GitHub Pages |
@@ -144,4 +144,4 @@ OK SEQ RUN
 
 ---
 
-固件版本:v0.1.4 · [CreavisionTech/IO-Docking](https://github.com/CreavisionTech/IO-Docking)
+固件版本:v0.1.4 · [qinmotech/IO-Docking](https://github.com/qinmotech/IO-Docking)
